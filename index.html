@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Biometrics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div className="content-container">
+        
+        <div class="container">
+            <h2>Star Wars Biometrics</h2>
+            <p>All the Star Wars data you've ever wanted:</p>
+            <p>
+                <b>Planets, Spaceships, Vehicles, <span>People</span>, Films and Species</b>
+            </p>
+            <h4>Now with The Force Awakens data!</h4>
+            <div id="infoProgress"></div>
+            <form id="frm1" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <div class="mb-3">
+                        <label for="peopleName" class="form-label">People name</label>
+                        <input type="text" class="form-control" id="peopleName" placeholder="" value="" required
+                            autofocus>
+                        <div class="invalid-feedback">
+                            A name is required ex. Han Solo, Jabba, C-3PO or R2-D2
+                        </div>
+                        <button id="btn1" class="btn btn-outline-dark">Try it now!</button>
+                    </div>
+                    <h2>Result:</h2>
+                    <div class="mb-3">
+                        <label for="commentTextArea" class="form-label">Some data</label>
+                        <textarea class="form-control" id="commentTextArea" rows="5"></textarea>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+   
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+
+    <script src="js/form-validation.js"></script>
+    <!-- <script src="js/App.js"></script> -->
+</body>
+
+</html>
