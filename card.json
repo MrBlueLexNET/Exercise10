@@ -1,0 +1,17 @@
+{
+    "success": true,
+    "deck_id": "1fpw6uhy0xto",
+    "cards": [
+        {
+            "code": "4H",
+            "image": "https://deckofcardsapi.com/static/img/4H.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/4H.svg",
+                "png": "https://deckofcardsapi.com/static/img/4H.png"
+            },
+            "value": "4",
+            "suit": "HEARTS"
+        }
+    ],
+    "remaining": 51
+}
