@@ -18,7 +18,7 @@ const getJson = () => {
         .then(data => {
             console.log(data);
 
-            jsonOutput.innerHTML = "";
+            jsonOutput.innerHTML = '';
 
             
                 jsonOutput.innerHTML +=
@@ -33,6 +33,14 @@ const getJson = () => {
                 
                 `
             ;
+
+            let img = document.createElement('img');
+               img.classList.add('align-self-start','mr-3');
+               img['src'] = `${data.cards[0].image}`;
+               img['alt'] = 'Generic placeholder image';
+               img.setAttribute('alt', `${data.cards[0].code}`);//Test Ok
+               jsonOutput.appendChild(img);
+               
 
         })
         .catch(err => console.log('Error: ', err));
